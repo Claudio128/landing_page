@@ -1,32 +1,39 @@
-#input-nome, #input-email {
-background-color: azure;
+/*
+CASO FOR ADICIONAR UM ID UTILIZAR #
+CASO FOR ADICIONAR UMA CLASS UTILIZAR .
+CASO NÃO PRECISAR DE AMBOS ULTILIZAR NOME DA TAG (EX: BODY, MAIN, DIV...
+CASO PRECISAR USAR A TAG DE DENTRO USE O NOME DA TAG EXTERNA E DEPOIS DA INTERNA (EX: DIV INPUT
+*/
 
-}
-
+/* Alterando a cor do Body */
 body {
     background-color: #25374B;
 }
- 
-#titulo-amarelo {
-    color: goldenrod;
-}
 
-#titulo-branco, #Subtitle {
-    color: whitesmoke ;
-}
-
+/* Alterando o tamanho da imagem */
 #Lue {
     max-width: 100px;
-
 }
 
+/* Alterando cor do título superior */
+#titulo-amarelo {
+    color: #F2CA20;
+}
+
+/* Alterando a cor do titulo inferior e o texto */
+#titulo-branco, #Subtitle {
+    color: #ffffff ;
+}
+
+/* Estilizando o menu */
 ul {
- list-style: none;
-color: aliceblue;
-display: flex;
-justify-content: end;
+    list-style: none;
+    color: #ffffff;
+    display: flex;
+    justify-content: end;
 }
 
-li{
+/* Espaçamento do menu */
+li {
     margin-right: 100px;
 }
