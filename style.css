@@ -14,3 +14,19 @@ body {
 #titulo-branco, #Subtitle {
     color: whitesmoke ;
 }
+
+#Lue {
+    max-width: 100px;
+
+}
+
+ul {
+ list-style: none;
+color: aliceblue;
+display: flex;
+justify-content: end;
+}
+
+li{
+    margin-right: 100px;
+}
