@@ -1,0 +1,16 @@
+#input-nome, #input-email {
+background-color: azure;
+
+}
+
+body {
+    background-color: #25374B;
+}
+ 
+#titulo-amarelo {
+    color: goldenrod;
+}
+
+#titulo-branco, #Subtitle {
+    color: whitesmoke ;
+}
