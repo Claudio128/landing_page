@@ -84,3 +84,8 @@ button {
     background-color: #F2CA20;
     color: #25374B;
 }
+
+#textos{
+    display: flex;
+    justify-content: space-around;
+}
