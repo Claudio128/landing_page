@@ -9,20 +9,40 @@ CASO PRECISAR USAR A TAG DE DENTRO USE O NOME DA TAG EXTERNA E DEPOIS DA INTERNA
 body {
     background-color: #25374B;
 }
+/*Ateração do Menu Incial*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /* Alterando o tamanho da imagem */
 #Lue {
+    
     max-width: 100px;
 }
 
-/* Alterando cor do título superior */
+/* Alterando cor do título superior e fonte*/
 #titulo-amarelo {
     color: #F2CA20;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 60px;
 }
 
-/* Alterando a cor do titulo inferior e o texto */
-#titulo-branco, #Subtitle {
+/* Alterando a cor do titulo inferior e fonte */
+#titulo-branco {
     color: #ffffff ;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 60px;
+}
+
+/* Alterando a cor do texto e fonte*/
+#Subtitle {
+    color: #ffffff ;
+    font-family: Georgia;
+    margin-left: 60px;
 }
 
 /* Estilizando o menu */
@@ -31,6 +51,7 @@ ul {
     color: #ffffff;
     display: flex;
     justify-content: end;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
 }
 
 /* Espaçamento do menu */
@@ -38,3 +59,30 @@ li {
     margin-right: 100px;
     color: white;
 }
+
+#input-nome, #input-email {
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 8px;
+    margin-left: 60px;
+}
+
+#input-div {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-left: 60px;
+    background-color: #F2CA20;
+    color: #25374B;
+}
+
+img
