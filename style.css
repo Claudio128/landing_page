@@ -5,7 +5,7 @@ CASO NÃO PRECISAR DE AMBOS ULTILIZAR NOME DA TAG (EX: BODY, MAIN, DIV...
 CASO PRECISAR USAR A TAG DE DENTRO USE O NOME DA TAG EXTERNA E DEPOIS DA INTERNA (EX: DIV INPUT
 */
 
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&family=Secular+One&display=swap');
 
 /* Alterando a cor do Body */
 body {
@@ -27,18 +27,22 @@ header{
 /* Alterando cor do título superior e fonte*/
 #titulo-amarelo {
     color: #F2CA20;
-    font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 140%;
+    font-size: 70px;
+    font-family: 'Kanit', sans-serif;
     margin-left: 60px;
+    margin-top: 30px;
     
 }
 
 /* Alterando a cor do titulo inferior e fonte */
 #titulo-branco {
     color: #ffffff ;
-    font-size: 50px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-left: 60px;
+    font-size: 60px;
+    width: 140%;
+    font-family: 'Secular One', sans-serif;
+    margin-left:60px;
+    margin-top:-40px;
 }
 
 /* Alterando a cor do texto e fonte*/
@@ -46,24 +50,28 @@ header{
     color: #ffffff ;
     font-size: 20px;
     font-family:crossorigin;
-    margin-left:-280px;
-    margin-top:330px;
+    margin-left:-320px;
+    margin-top:220px;
 
 }
 
 /* Estilizando o menu */
 ul {
     list-style: none;
+    text-decoration: none;
     color: #ffffff;
     display: flex;
     justify-content: end;
     font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    text-decoration: none;
+    box-shadow: none;
 }
 
 /* Espaçamento do menu */
 li {
     margin-right: 100px;
     color: white;
+
 }
 
 #input-nome, #input-email {
@@ -78,6 +86,7 @@ li {
 #input-div {
     display: flex;
     flex-direction: column;
+    margin-top: -180px;
     
 }
 
@@ -89,6 +98,7 @@ button {
     margin-left: 60px;
     background-color: #F2CA20;
     color: #25374B;
+
 }
 
 #textos{
