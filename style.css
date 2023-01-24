@@ -5,6 +5,8 @@ CASO NÃO PRECISAR DE AMBOS ULTILIZAR NOME DA TAG (EX: BODY, MAIN, DIV...
 CASO PRECISAR USAR A TAG DE DENTRO USE O NOME DA TAG EXTERNA E DEPOIS DA INTERNA (EX: DIV INPUT
 */
 
+
+
 /* Alterando a cor do Body */
 body {
     background-color: #25374B;
@@ -28,21 +30,25 @@ header{
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 60px;
+    
 }
 
 /* Alterando a cor do titulo inferior e fonte */
 #titulo-branco {
     color: #ffffff ;
     font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     margin-left: 60px;
 }
 
 /* Alterando a cor do texto e fonte*/
 #Subtitle {
     color: #ffffff ;
-    font-family: Georgia;
-    margin-left: 60px;
+    font-size: 20px;
+    font-family:crossorigin;
+    margin-left:-280px;
+    margin-top:330px;
+
 }
 
 /* Estilizando o menu */
@@ -89,3 +95,4 @@ button {
     display: flex;
     justify-content: space-around;
 }
+
