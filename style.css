@@ -5,104 +5,107 @@ CASO NÃO PRECISAR DE AMBOS ULTILIZAR NOME DA TAG (EX: BODY, MAIN, DIV...
 CASO PRECISAR USAR A TAG DE DENTRO USE O NOME DA TAG EXTERNA E DEPOIS DA INTERNA (EX: DIV INPUT
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&family=Secular+One&display=swap');
+/* Importando fonte do Google fontes */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&family=Secular+One&display=swap'); /* Importando 2 fonts com uma URL, as fontes são: Kanit e Secular One */
 
 /* Alterando a cor do Body */
 body {
-    background-color: #25374B;
+    background-color: #25374B; /* Adicionando uma cor escura ao fundo */
 }
-/*Ateração do Menu Incial*/
+
+/* Ateração do Menu Incial: Centralizando */
 header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* Deixando o header flexível */
+    justify-content: space-between; /* Adicionando um espaçamento sicronizado para o conteúdo do Header */
+    align-items: center; /* Deixando o conteúdo alinhado no centro vertical */
 }
 
-/* Alterando o tamanho da imagem */
+/* Alterando a imagem da lua (logo) */
 #Lue {
-    
-    max-width: 100px;
+    max-width: 100px; /* Alterando o tamanho da imagem */
 }
 
-/* Alterando cor do título superior e fonte*/
+/* Alterações do título-amarelo */
 #titulo-amarelo {
-    color: #F2CA20;
-    width: 140%;
-    font-size: 70px;
-    font-family: 'Kanit', sans-serif;
-    margin-left: 60px;
-    margin-top: 30px;
+    color: #F2CA20; /* Alterando a cor para amarelo */
+    width: 140%; /* Alterando a largura onde o título está */
+    font-size: 70px; /* Alterando o tamanho da fonte */
+    font-family: 'Kanit', sans-serif; /* Adicionando outra fonte */
+    margin-left: 60px; /* Dando um espaçamento lateral (Esquerda) */
+    margin-top: 30px; /* Dando um espaçamento no topo (Em cima) */
     
 }
 
-/* Alterando a cor do titulo inferior e fonte */
+/* Alterando do título branco */
 #titulo-branco {
-    color: #ffffff ;
-    font-size: 60px;
-    width: 140%;
-    font-family: 'Secular One', sans-serif;
-    margin-left:60px;
-    margin-top:-40px;
+    color: #ffffff ; /* Alterando a cor para branco */
+    font-size: 60px; /* Alterando tamanho da fonte */
+    width: 140%; /* Alterando a largura onde o título está */
+    font-family: 'Secular One', sans-serif; /* Adicionando outra fonte */
+    margin-left:60px; /* Dando um espaçamento lateral (Esquerda) */
+    margin-top:-40px; /* Dando um espaçamento no topo (Em cima) */
+    /* Alterar o valor da margin top de -40 para -70 para ficar mais próximo do texto amarelo depois que fizer isso apagar esse comentário por completo! */
 }
 
-/* Alterando a cor do texto e fonte*/
+/* Alterando o texto */
 #Subtitle {
-    color: #ffffff ;
-    font-size: 20px;
-    font-family:crossorigin;
-    margin-left:-320px;
-    margin-top:220px;
+    color: #ffffff ; /* Alterando a cor para branco */
+    font-size: 20px; /* Alterando o tamanho da fonte */
+    font-family:crossorigin; /* Alterando a fonte */
+    /* Alterar a fonte do texto (Adicionar aquela que te mandei no WhatsApp depois que fizer isso apagar esse comentário por completo!*/
+    margin-left:-320px; /* Dando um espaçamento negativa na lateral (Esquerda) */
+    margin-top:220px; /* Dando um espaçamento no topo (Em cima) */
 
 }
 
 /* Estilizando o menu */
 ul {
-    list-style: none;
-    text-decoration: none;
-    color: #ffffff;
-    display: flex;
-    justify-content: end;
-    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
-    text-decoration: none;
-    box-shadow: none;
+    list-style: none; /* Retirando o estilo da lista ordenada (As bolinhas do lado da lista) */
+    text-decoration: none; /* Retirar o text-decoration: none pois ele não vai funcionar na ul, tem que ser usado na tag a onde é localizado o link */
+    color: #ffffff; /* Ta,bém retirar o color pois também tem que alterar na tag a porque é a tag que irá aparecer */
+    display: flex; /* Deixando a ul com o conteúdo flexível */
+    justify-content: end; /* Retirar o justify-content pois o menu já está no final (Total a direita) */
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif; /* Alterando a fonte do menu */
+    box-shadow: none; /* Retirar o box-shadow pois não tem nenhuma sombra na ul */
 }
 
 /* Espaçamento do menu */
 li {
-    margin-right: 100px;
-    color: white;
-
+    margin-right: 100px; /* Dando o espaçamento lateral (Direita) */
+    color: white; /* Retirar a cor da li e adicionar na tag a */
 }
 
+/* Alterando os inputs */
 #input-nome, #input-email {
-    border-radius: 20px;
-    border: none;
-    outline: none;
-    padding: 10px;
-    margin: 8px;
-    margin-left: 60px;
+    border-radius: 20px; /* Colocando as laterais do input arredondadas */
+    border: none; /* Retirando a borda */
+    outline: none; /* Retirando a linha quando é clicada */
+    padding: 10px; /* Adicionando o espaçamento interno */
+    margin: 8px; /* Adicionando o espaçamento externo */
+    margin-left: 60px; /* Adicionando um espaçamento lateral (Esqueda) */
 }
 
+/* Alterando a div onde o input está localizado */
 #input-div {
-    display: flex;
-    flex-direction: column;
-    margin-top: -180px;
-    
+    display: flex; /* Deixando a div dos inputs flexível */
+    flex-direction: column; /* Colocando os inputs em coluna */
+    margin-top: -180px; /* Dando um espaçamento no topo (Em cima) */
 }
 
+/* Alterações do botão */
 button {
-    border-radius: 20px;
-    border: none;
-    outline: none;
-    padding: 10px;
-    margin-left: 60px;
-    background-color: #F2CA20;
-    color: #25374B;
-
+    border-radius: 20px; /* Colocando as laterais do input arredondadas */
+    border: none; /* Retirando a borda */
+    outline: none; /* Retirando a linha quando é clicada */
+    padding: 10px; /* Adicionando o espaçamento interno */
+    margin-left: 60px; /* Dando um espaçamento lateral (Esquerda) */
+    background-color: #F2CA20; /* Adicionando cor amarela de fundo */
+    color: #25374B; /* Alterando a cor do testo para a cor do fundo da página */
 }
 
+/* Alterações do conteúdo do texto */
 #textos{
-    display: flex;
-    justify-content: space-around;
+    display: flex; /* Alterando a div onde está conteúdo */
+    justify-content: space-around; /* Espaçamento do conteúdo */
 }
 
