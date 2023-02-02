@@ -1,0 +1,23 @@
+/* Importando fonte do Google fontes */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&family=Secular+One&display=swap'); /* Importando 2 fonts com uma URL, as fontes são: Kanit e Secular One */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+#logo {
+    max-width: 150px;
+    margin-left: 100px;
+}
+main {
+    margin-top: 70px;
+}
