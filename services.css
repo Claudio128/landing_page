@@ -27,6 +27,7 @@ main {
 
 #services1 {
     max-width: 650px;
+    margin-top: 25px;
 }
  p{
     font-family: 'Montserrat', sans-serif;
@@ -61,4 +62,12 @@ main {
     width: 380px;
     padding: 10px;
     
+ }
+
+ #descricao{
+    box-sizing: content-box;
+    font-size: 20px;
+    line-height: 40px;
+    padding-right: 600px;
+    text-align: left;
  }
